@@ -19,6 +19,7 @@ public class Main {
         Transmission t3 = new Transmission(6.02435, 0, 64);
         List<Transmission> transmissions = new ArrayList<>();
         transmissions.add(t1);
+        
         transmissions.add(t2);
         transmissions.add(t3);
         for (int i = 0; i < transmissions.size(); i++) {
